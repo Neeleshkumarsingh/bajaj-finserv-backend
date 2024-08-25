@@ -7,7 +7,7 @@ app.use(bodyParser.json());
 
 // Allow only the specific frontend origin
 app.use(cors({
-    origin: 'https://bajaj-finserv-frontend-tau.vercel.app',
+    origin: 'https://bajaj-finserv-frontend-sable.vercel.app/',
     methods: 'GET,POST',
     allowedHeaders: 'Content-Type',
     credentials:true,
